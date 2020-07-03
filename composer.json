@@ -1,0 +1,28 @@
+{
+    "name": "kevinjfzhang/alisms",
+    "description": "A php package for Aliyun sms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KevinJFZhang",
+            "email": "kevinjfzhang@sina.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KevinJFZ\\AliSms\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2.5",
+        "symfony/http-foundation": "^5.1",
+        "php-http/message": "^1.5",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
